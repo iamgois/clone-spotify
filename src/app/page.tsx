@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-zinc-800 w-screen h-screen overflow-hidden">
       <div className="flex divide-x-8 divide-zinc-800">
 
-        <div className="grid divide-zinc-800 divide-y-8">
+        <div className="grid divide-zinc-800 divide-y-8 h-full">
           <Controllers />
           <MyMusics />
         </div>

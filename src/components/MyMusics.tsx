@@ -3,21 +3,21 @@ import { Library, Plus, ArrowRight, Search, ChevronDown } from "lucide-react";
 export default function MyMusics() {
   return (
     <div className="bg-zinc-700 text-zinc-50 gap-2 flex flex-col">
-      <div className="flex items-center justify-between py-4 px-4">
+      <div className="flex items-center justify-between py-4 px-4 gap-24">
         <div className="flex font-semibold">
           <Library />
           <p>Your Library</p>
         </div>
-        <div className="flex text-zinc-400 gap-4">
+        <div className="flex text-zinc-400 gap-2">
           <Plus />
           <ArrowRight />
         </div>
       </div>
-      <div className="flex gap-2 px-4">
-        <button className="bg-zinc-900 py-2 px-6 rounded-full hover:bg-zinc-800">
+      <div className="flex gap-2 px-4 py-2">
+        <button className="bg-zinc-900 text-xs py-2 px-4 rounded-full hover:bg-zinc-800">
           Playlists
         </button>
-        <button className="bg-zinc-900 py-2 px-6 rounded-full hover:bg-zinc-800">
+        <button className="bg-zinc-900 text-xs px-4 rounded-full hover:bg-zinc-800">
           Artists
         </button>
       </div>
@@ -52,6 +52,20 @@ export default function MyMusics() {
         />
         <div className="flex flex-col gap-1">
           <p className="font-semibold">Miley Cyrus</p>
+          <p className="text-zinc-400">Artist</p>
+        </div>
+      </div>
+
+      <div className="px-4 py-2 flex items-center gap-2">
+        <img
+          className="w-16 h-16 rounded-full"
+          src={
+            "https://i.scdn.co/image/ab6761610000e5eb489bc3d19c54822f9db3767a"
+          }
+          alt="Travis Scott Profile Photo"
+        />
+        <div className="flex flex-col gap-1">
+          <p className="font-semibold">Veigh</p>
           <p className="text-zinc-400">Artist</p>
         </div>
       </div>

@@ -4,7 +4,7 @@ export default function Musics() {
   return (
     <div>
       {/* Top */}
-      <div className="flex flex-1 items-center justify-between py-4 px-4 text-zinc-50 bg-[#3a5e40] gap-24">
+      <div className="flex flex-1 items-center justify-between py-4 px-4 text-zinc-50 bg-zinc-800 gap-24">
         <div className="flex gap-2">
           <button>
             <ChevronLeft
@@ -32,7 +32,7 @@ export default function Musics() {
         </div>
 
         <div className="flex gap-4 items-center justify-between">
-          <button className="bg-zinc-50 text-zinc-900 font-semibold py-2 px-4 rounded-full">
+          <button className="bg-zinc-50 hover:bg-zinc-300 text-zinc-900 font-semibold py-2 px-4 rounded-full">
             Upgrade
           </button>
           <Users className="bg-zinc-700 hover:bg-zinc-600 cursor-pointer p-2 w-10 h-10 rounded-full" />
@@ -121,21 +121,21 @@ export default function Musics() {
 
         <div className="flex justify-center gap-8 mx-8">
           <img
-            className="w-full h-full rounded-md"
+            className="w-full h-full rounded-xl"
             src={
               "https://i.scdn.co/image/ab67706f000000027bd3578faaa6d80d3621b585"
             }
             alt="astrowold album"
           />
           <img
-            className="w-full h-full rounded-md"
+            className="w-full h-full rounded-xl"
             src={
               "https://i.scdn.co/image/ab67706f000000027bd3578faaa6d80d3621b585"
             }
             alt="astrowold album"
           />
           <img
-            className="w-full h-full rounded-md"
+            className="w-full h-full rounded-xl"
             src={
               "https://i.scdn.co/image/ab67706f000000027bd3578faaa6d80d3621b585"
             }
